@@ -1,0 +1,23 @@
+{
+  "name": "react-note-list",
+  "version": "1.0.0",
+  "description": "A note list created with electron and react",
+  "main": "compile.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Maximilian Meier",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-preset-es2016": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "electron": "^1.4.15",
+    "electron-compilers": "^5.5.1",
+    "electron-reload": "^1.1.0"
+  },
+  "dependencies": {
+    "electron-compile": "^5.1.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
